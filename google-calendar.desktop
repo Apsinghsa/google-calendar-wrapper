@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Google Calendar
+Comment=A simple desktop wrapper for Google Calendar.
+# Corrected Exec command for running from source
+Exec=sh -c "cd /home/apsingh/Documents/projects/google-calendar-wrapper && npm start"
+Icon=/home/apsingh/Documents/projects/google-calendar-wrapper/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Office;Calendar;
+# This line is crucial and must match the 'class' in index.js
+StartupWMClass=google-calendar-wrapper
